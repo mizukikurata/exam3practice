@@ -1,0 +1,18 @@
+---
+title: "Exam3practice"
+author: "MizukiKurata"
+date: "7/9/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Please clear the environment in R.
+```{r echo=TRUE}
+rm(list=ls(all=TRUE))
+```
+
+2. Load the “inequality” dataset into R, and save the data frame as ‘inequal-ity_data’.
+
